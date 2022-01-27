@@ -103,9 +103,11 @@ Capital['Minsk'] = 'Valgevene'
 Capital['Vatican'] = 'Vatikan'
 Capital['Moskva'] = 'Venemaa'
 Countries=input("Введи страну или город: ") 
-if Countries in Capitals:
-    print('Столица страны ' + Countries + ': ' + Capitals[Countries])
-elif Countries in Capital:
-    print('Страна столицы ' + Countries + ': ' + Capital[Countries])
+countries=Countries.title()
+if countries in Capitals:
+    print('Столица страны ' + Countries + ': ' + Capitals[countries])
+elif countries in Capital:
+    print('Страна столицы ' + Countries + ': ' + Capital[countries])
 else:
-    print('В базе нет страны c названием ' + Countries)
+    print('В базе нет страны c названием ' + countries)
+
