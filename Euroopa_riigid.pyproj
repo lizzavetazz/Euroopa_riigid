@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>855ca9da-221b-4f51-b8bc-4864260fb177</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Euroopa_riigid.py</StartupFile>
+    <StartupFile>module2.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -23,6 +23,9 @@
   <ItemGroup>
     <Compile Include="Euroopa_riigid.py" />
     <Compile Include="module1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="module2.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
